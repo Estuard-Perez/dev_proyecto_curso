@@ -1,0 +1,384 @@
+body {
+    background-image: url('patron.jpg');
+    background-size: 100px 100px;
+    background-repeat: repeat;
+}
+
+header {
+    position: relative;
+    width: 800px;
+    height: 120px;
+    background: #ffffff;
+    margin: auto;
+}
+
+#imagen {
+    position: absolute;
+    width: 800px;
+    margin: 0px auto;
+    height: 330px;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('gato.jpg');
+}
+
+nav {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 40px;
+}
+
+.opcion {
+    width: 110px;
+    margin: 0px 0px;
+    height: 80px;
+    list-style: none;
+    float: left;
+    color: black;
+    text-align: right;
+    line-height: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#logotipo {
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    left: 0px;
+    top: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    font-variation-settings: "wdth"100;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
+    color: rgb(98, 138, 98);
+}
+
+#menu {
+    position: absolute;
+    left: 300px;
+    top: 40px;
+}
+
+#logocarrito {
+    width: 40px;
+}
+
+#top {
+    position: relative;
+    margin: 20px auto;
+    width: 800px;
+    height: 192px;
+
+}
+
+#top ul {
+    width: 1010px;
+    height: 192px;
+    list-style: none;
+
+}
+
+#top ul li {
+    float: left;
+    width: 260px;
+    height: 192px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#top ul li img {
+    height: 100px;
+}
+
+#top ul li h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+#top ul li p {
+    font-size: 14px;
+    margin: 10px;
+}
+
+section {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 453px;
+}
+
+aside#izq {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+}
+
+
+article {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453px;
+}
+
+article h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    margin: 20px;
+}
+
+article p img {
+    float: left;
+    margin-right: 20px;
+}
+
+article p {
+    margin: 5px 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+footer {
+    position: relative;
+    top: 220px;
+    width: 800px;
+    margin: 20px auto;
+    height: 60px;
+    background: #888;
+    padding: 20px;
+    text-align: left;
+}
+
+.suscripcion {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.suscripcion label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.suscripcion input[type="email"] {
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.suscripcion input[type="email"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.suscripcion button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.suscripcion button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+aside#der {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+}
+
+aside#der h1 {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgba(100, 0, 255, 1);
+    color: white;
+    margin-bottom: 5px;
+}
+
+aside#der input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 176px;
+}
+
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#productos {
+    background-color: coral;
+    padding: 20px;
+    height: 750px;
+    position: relative;
+    top: 235px;
+    margin: 20px auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.grid-item h3 {
+    margin-top: 0;
+}
+
+.grid-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.grid-item button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grid-item button:hover {
+    background-color: #444;
+}

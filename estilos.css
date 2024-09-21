@@ -1,0 +1,258 @@
+body {
+  background-size: 200px 200px;
+  background-repeat: repeat;
+  background-image: url('patron.jpg');
+}
+
+header {
+  position: relative;
+  width: 800px;
+  height: 120px;
+  background: #ffffff;
+  margin: auto;
+}
+
+#imagen {
+  position: relative;
+  width: 800px;
+  margin: 0px auto;
+  height: 400px;
+  background-image: url('veterinaria.png');
+
+}
+
+section {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  margin: auto;
+  background: #aaa;
+}
+
+footer {
+  position: relative;
+  top: 200px;
+  width: 800px;
+  margin: 20px auto;
+  height: 60px;
+  background: #888;
+  padding: 20px;
+  text-align: left;
+}
+
+.suscripcion {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.suscripcion label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.suscripcion input[type="email"] {
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.suscripcion input[type="email"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.suscripcion button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suscripcion button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.unirse {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+aside#izq {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 0;
+  top: 0;
+  background: bisque;
+  padding: 20px;
+}
+
+aside#der {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  right: 0;
+  top: 0;
+  background: coral;
+
+}
+
+nav {
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 40px;
+}
+
+.opcion {
+  width: 110px;
+  margin: 0px 0px;
+  height: 80px;
+  list-style: none;
+  float: left;
+  color: black;
+  text-align: right;
+  line-height: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#logotipo {
+  position: absolute;
+  width: 350px;
+  height: 80px;
+  left: 0px;
+  top: 20px;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+  font-variation-settings: "wdth"100;
+  font-size: 50px;
+  text-align: center;
+  line-height: 80px;
+  color: rgb(98, 138, 98);
+}
+
+#menu {
+  position: absolute;
+  left: 300px;
+  top: 40px;
+}
+
+#logocarrito {
+  width: 40px;
+}
+
+#mapa {
+  width: 350px;
+  height: 380px;
+  position: absolute;
+  left: 25px;
+  top: 15px;
+}
+
+.formulario {
+  width: 320px;
+  height: 340px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* Agregué padding para que el formulario tenga espacio */
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+.campo label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="email"] {
+  width: 90%;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.campo input[type="text"]:focus,
+.campo input[type="email"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.formulario button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.kanit-extralight {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.kanit-light {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.kanit-extrabold {
+  font-family: "Kanit",
