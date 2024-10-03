@@ -17,8 +17,14 @@ header {
   width: 800px;
   margin: 0px auto;
   height: 400px;
-  background-image: url('veterinaria.png');
+  
+}
 
+#img {
+  position: absolute;
+  width: 800px;
+  height: 400px;
+  
 }
 
 section {
@@ -77,11 +83,6 @@ footer {
 
 .suscripcion button[type="submit"]:hover {
   background-color: #3e8e41;
-}
-
-.unirse {
-  display: inline-block;
-  margin-left: 20px;
 }
 
 aside#izq {
@@ -199,7 +200,7 @@ nav {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.formulario button[type="submit"] {
+.formulario button[type="button"] {
   background-color: #4CAF50;
   color: #fff;
   padding: 10px 20px;

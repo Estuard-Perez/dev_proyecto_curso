@@ -17,7 +17,7 @@ header {
     width: 800px;
     margin: 0px auto;
     height: 330px;
-    top: 46%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url('gato.jpg');
